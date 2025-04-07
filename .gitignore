@@ -1,0 +1,87 @@
+## Build Folders (you can add more if needed)
+bin/
+obj/
+out/
+
+## User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+## Rider and VS Code settings
+.idea/
+.vscode/
+
+## Visual Studio specific
+.vs/
+*.ncb
+*.sdf
+*.opensdf
+*.cachefile
+*.dbmdl
+*.pdb
+
+## ASP.NET specific
+appsettings.Development.json
+appsettings.*.json
+
+## NuGet packages
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.assets.json
+PackageLock.json
+
+## Entity Framework
+Migrations/
+
+## Logs
+*.log
+
+## Test Results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## Temporary Files
+~$*
+*.tmp
+*.temp
+*.bak
+*.swp
+
+## Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+## Windows image thumbnails
+Thumbs.db
+
+## IIS Express
+.vsconfig
+.usr
+
+## dotCover
+*.dotCover
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+
+## Others
+*.DS_Store
+*.env
+*.psess
+*.vsp
+*.vspx
+*.vsmdi
+
+## Local secrets
+secrets.json
+
+# Don't ignore README or LICENSE
+!README.md
+!LICENSE
