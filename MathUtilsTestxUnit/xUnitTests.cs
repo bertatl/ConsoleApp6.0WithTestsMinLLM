@@ -16,10 +16,22 @@ namespace MathUtilsTestxUnit
             Assert.Equal(2, mo.Subtract(4, 2));
         }
         [Fact]
+        public void TestMultiply()
+        {
+            var mo = new MathOperations();
+            Assert.Equal(8, mo.Multiply(4, 2));
+        }
+        [Fact]
         public void ForceFail()
         {
             var mo = new MathOperations();
             Assert.Equal(2, mo.Subtract(5, 2));
+        }
+        [Fact(Skip = "Skipping this test.")]
+        public void SkippedTest()
+        {
+            var mo = new MathOperations();
+            Assert.Equal(8, mo.Multiply(4, 2));
         }
     }
 }

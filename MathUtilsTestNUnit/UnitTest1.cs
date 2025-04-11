@@ -23,6 +23,7 @@ namespace MathUtilsTestNUnit
             Assert.AreEqual(2, mo.Subtract(4, 2));
         }
 
+        [Test]
         public void TestMultiply()
         {
             var mo = new MathOperations();
