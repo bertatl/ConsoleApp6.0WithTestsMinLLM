@@ -25,6 +25,7 @@ namespace MathUtilsTestxUnit
         public void ForceFail()
         {
             var mo = new MathOperations();
+            System.Threading.Thread.Sleep(120000);
             Assert.Equal(2, mo.Subtract(5, 2));
         }
         [Fact(Skip = "Skipping this test.")]
