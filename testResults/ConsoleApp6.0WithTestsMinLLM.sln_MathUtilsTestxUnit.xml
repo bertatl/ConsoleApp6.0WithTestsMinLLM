@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="72ab3bac-5aa3-4e6d-839e-c31cf4e7ab0b" name="@ip-10-0-30-31 2025-06-09 05:06:29" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-06-09T05:06:29.2965367+00:00" queuing="2025-06-09T05:06:29.2965367+00:00" start="2025-06-09T05:06:27.3813940+00:00" finish="2025-06-09T05:08:27.9960849+00:00" />
+  <TestSettings name="default" id="ff22f402-30f1-4936-ac6a-4b4d1309cf85">
+    <Deployment runDeploymentRoot="_ip-10-0-30-31_2025-06-09_05_06_29" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="3e17129f-d726-48f0-b3cd-61dfbb1c1610" testId="6ea4550f-31f0-7645-959d-0d7782cbad79" testName="MathUtilsTestxUnit.xUnitTests.TestAdd" computerName="ip-10-0-30-31" duration="00:00:00.0001358" startTime="2025-06-09T05:06:27.9361828+00:00" endTime="2025-06-09T05:06:27.9362316+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e17129f-d726-48f0-b3cd-61dfbb1c1610" />
+    <UnitTestResult executionId="2ab56b4f-1ed5-465c-b822-6bba8729f825" testId="d29730db-afcc-9c36-24af-4210acd0c44b" testName="MathUtilsTestxUnit.xUnitTests.SkippedTest" computerName="ip-10-0-30-31" duration="00:00:00.0010000" startTime="2025-06-09T05:06:27.9337369+00:00" endTime="2025-06-09T05:06:27.9339935+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ab56b4f-1ed5-465c-b822-6bba8729f825">
+      <Output>
+        <ErrorInfo>
+          <Message>Skipping this test.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b0ff4a51-100f-42dc-943c-f262112238fe" testId="1820c9af-16ca-99be-d958-5d2998de0dce" testName="MathUtilsTestxUnit.xUnitTests.TestMultiply" computerName="ip-10-0-30-31" duration="00:00:00.0001101" startTime="2025-06-09T05:06:27.9357197+00:00" endTime="2025-06-09T05:06:27.9357923+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b0ff4a51-100f-42dc-943c-f262112238fe" />
+    <UnitTestResult executionId="3dad1c04-235a-452c-87a4-08d7fa3af73a" testId="84e867ef-6e30-5752-f3c2-9fd28f4c87e3" testName="MathUtilsTestxUnit.xUnitTests.TestSubtract" computerName="ip-10-0-30-31" duration="00:00:00.0032453" startTime="2025-06-09T05:06:27.9163293+00:00" endTime="2025-06-09T05:06:27.9257019+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3dad1c04-235a-452c-87a4-08d7fa3af73a" />
+    <UnitTestResult executionId="9bb2cc7d-33ff-4628-9589-8971320fc4b8" testId="3ed401e7-8815-df50-ce9a-b5a5fa733b16" testName="MathUtilsTestxUnit.xUnitTests.ForceFail" computerName="ip-10-0-30-31" duration="00:02:00.0026434" startTime="2025-06-09T05:06:27.9363716+00:00" endTime="2025-06-09T05:08:27.9367685+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9bb2cc7d-33ff-4628-9589-8971320fc4b8">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Equal() Failure
+Expected: 2
+Actual:   3</Message>
+          <StackTrace>   at MathUtilsTestxUnit.xUnitTests.ForceFail() in /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/MathUtilsTestxUnit/xUnitTests.cs:line 29
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="MathUtilsTestxUnit.xUnitTests.ForceFail" storage="/tmp/tempfspartition/qnettransformartifacts/midtransformcode/transformedcode/sourcecode/mathutilstestxunit/bin/debug/net8.0/mathutilstestxunit.dll" id="3ed401e7-8815-df50-ce9a-b5a5fa733b16">
+      <Execution id="9bb2cc7d-33ff-4628-9589-8971320fc4b8" />
+      <TestMethod codeBase="/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/MathUtilsTestxUnit/bin/Debug/net8.0/MathUtilsTestxUnit.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MathUtilsTestxUnit.xUnitTests" name="ForceFail" />
+    </UnitTest>
+    <UnitTest name="MathUtilsTestxUnit.xUnitTests.SkippedTest" storage="/tmp/tempfspartition/qnettransformartifacts/midtransformcode/transformedcode/sourcecode/mathutilstestxunit/bin/debug/net8.0/mathutilstestxunit.dll" id="d29730db-afcc-9c36-24af-4210acd0c44b">
+      <Execution id="2ab56b4f-1ed5-465c-b822-6bba8729f825" />
+      <TestMethod codeBase="/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/MathUtilsTestxUnit/bin/Debug/net8.0/MathUtilsTestxUnit.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MathUtilsTestxUnit.xUnitTests" name="SkippedTest" />
+    </UnitTest>
+    <UnitTest name="MathUtilsTestxUnit.xUnitTests.TestMultiply" storage="/tmp/tempfspartition/qnettransformartifacts/midtransformcode/transformedcode/sourcecode/mathutilstestxunit/bin/debug/net8.0/mathutilstestxunit.dll" id="1820c9af-16ca-99be-d958-5d2998de0dce">
+      <Execution id="b0ff4a51-100f-42dc-943c-f262112238fe" />
+      <TestMethod codeBase="/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/MathUtilsTestxUnit/bin/Debug/net8.0/MathUtilsTestxUnit.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MathUtilsTestxUnit.xUnitTests" name="TestMultiply" />
+    </UnitTest>
+    <UnitTest name="MathUtilsTestxUnit.xUnitTests.TestSubtract" storage="/tmp/tempfspartition/qnettransformartifacts/midtransformcode/transformedcode/sourcecode/mathutilstestxunit/bin/debug/net8.0/mathutilstestxunit.dll" id="84e867ef-6e30-5752-f3c2-9fd28f4c87e3">
+      <Execution id="3dad1c04-235a-452c-87a4-08d7fa3af73a" />
+      <TestMethod codeBase="/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/MathUtilsTestxUnit/bin/Debug/net8.0/MathUtilsTestxUnit.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MathUtilsTestxUnit.xUnitTests" name="TestSubtract" />
+    </UnitTest>
+    <UnitTest name="MathUtilsTestxUnit.xUnitTests.TestAdd" storage="/tmp/tempfspartition/qnettransformartifacts/midtransformcode/transformedcode/sourcecode/mathutilstestxunit/bin/debug/net8.0/mathutilstestxunit.dll" id="6ea4550f-31f0-7645-959d-0d7782cbad79">
+      <Execution id="3e17129f-d726-48f0-b3cd-61dfbb1c1610" />
+      <TestMethod codeBase="/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/MathUtilsTestxUnit/bin/Debug/net8.0/MathUtilsTestxUnit.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="MathUtilsTestxUnit.xUnitTests" name="TestAdd" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="6ea4550f-31f0-7645-959d-0d7782cbad79" executionId="3e17129f-d726-48f0-b3cd-61dfbb1c1610" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d29730db-afcc-9c36-24af-4210acd0c44b" executionId="2ab56b4f-1ed5-465c-b822-6bba8729f825" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1820c9af-16ca-99be-d958-5d2998de0dce" executionId="b0ff4a51-100f-42dc-943c-f262112238fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="84e867ef-6e30-5752-f3c2-9fd28f4c87e3" executionId="3dad1c04-235a-452c-87a4-08d7fa3af73a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3ed401e7-8815-df50-ce9a-b5a5fa733b16" executionId="9bb2cc7d-33ff-4628-9589-8971320fc4b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="4" passed="3" failed="1" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.1+bf6400fd51 (64-bit .NET 8.0.16)
+[xUnit.net 00:00:00.07]   Discovering: MathUtilsTestxUnit
+[xUnit.net 00:00:00.09]   Discovered:  MathUtilsTestxUnit
+[xUnit.net 00:00:00.11]   Starting:    MathUtilsTestxUnit
+[xUnit.net 00:00:00.15]       Skipping this test.
+Test 'MathUtilsTestxUnit.xUnitTests.SkippedTest' was skipped in the test run.
+[xUnit.net 00:02:00.16]       Assert.Equal() Failure
+[xUnit.net 00:02:00.16]       Expected: 2
+[xUnit.net 00:02:00.16]       Actual:   3
+[xUnit.net 00:02:00.16]       Stack Trace:
+[xUnit.net 00:02:00.16]         /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/MathUtilsTestxUnit/xUnitTests.cs(29,0): at MathUtilsTestxUnit.xUnitTests.ForceFail()
+[xUnit.net 00:02:00.16]            at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+[xUnit.net 00:02:00.16]            at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+[xUnit.net 00:02:00.16]   Finished:    MathUtilsTestxUnit
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="ip-10-0-30-31" outcome="Warning" timestamp="2025-06-09T05:06:27.9347621+00:00">
+        <Text>[xUnit.net 00:00:00.15]     MathUtilsTestxUnit.xUnitTests.SkippedTest [SKIP]</Text>
+      </RunInfo>
+      <RunInfo computerName="ip-10-0-30-31" outcome="Error" timestamp="2025-06-09T05:08:27.9398119+00:00">
+        <Text>[xUnit.net 00:02:00.16]     MathUtilsTestxUnit.xUnitTests.ForceFail [FAIL]</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>

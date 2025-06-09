@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="389e94b2-12e3-414f-ad62-9483d5fc3799" name="@ip-10-0-30-31 2025-06-09 05:06:25" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-06-09T05:06:25.8076399+00:00" queuing="2025-06-09T05:06:25.8076399+00:00" start="2025-06-09T05:06:25.1602429+00:00" finish="2025-06-09T05:06:25.8136405+00:00" />
+  <TestSettings name="default" id="69321821-b9ef-4f5e-853c-a38799647855">
+    <Deployment runDeploymentRoot="_ip-10-0-30-31_2025-06-09_05_06_25" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="ad01e149-d5fc-4eac-a3ce-f73862e4eb7b" testId="d614a262-e5a0-f8ef-fb80-dac001653950" testName="TestAdd" computerName="ip-10-0-30-31" duration="00:00:00.0003160" startTime="2025-06-09T05:06:25.6706725+00:00" endTime="2025-06-09T05:06:25.6709888+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ad01e149-d5fc-4eac-a3ce-f73862e4eb7b" />
+    <UnitTestResult executionId="a84b7861-207d-4824-92ad-4d84e2a92d05" testId="aa5ef510-6f8f-ac67-342a-1924250b2100" testName="TestMultiply" computerName="ip-10-0-30-31" duration="00:00:00.0001650" startTime="2025-06-09T05:06:25.6710068+00:00" endTime="2025-06-09T05:06:25.6711714+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a84b7861-207d-4824-92ad-4d84e2a92d05" />
+    <UnitTestResult executionId="7ae5817c-a18c-4b8f-9057-c8c490bc95eb" testId="8dadb478-5b16-5691-31e0-925960f723ee" testName="ForceFail" computerName="ip-10-0-30-31" duration="00:00:00.0293480" startTime="2025-06-09T05:06:25.6398678+00:00" endTime="2025-06-09T05:06:25.6691636+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ae5817c-a18c-4b8f-9057-c8c490bc95eb">
+      <Output>
+        <ErrorInfo>
+          <Message>  Assert.That(actual, Is.EqualTo(expected))
+  Expected: 2
+  But was:  4
+</Message>
+          <StackTrace>   at NUnit.Framework.Legacy.ClassicAssert.AreEqual(Object expected, Object actual)
+   at MathUtilsTestNUnit.Tests.ForceFail() in /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/MathUtilsTestNUnit/UnitTest1.cs:line 47
+
+1)    at NUnit.Framework.Legacy.ClassicAssert.AreEqual(Object expected, Object actual)
+   at MathUtilsTestNUnit.Tests.ForceFail() in /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/MathUtilsTestNUnit/UnitTest1.cs:line 47
+
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fad17c36-0cbc-4d50-b3e1-c03dffe56866" testId="b4cd3eb8-b13a-f364-7b98-fb162936e983" testName="TestSubtract" computerName="ip-10-0-30-31" duration="00:00:00.0000960" startTime="2025-06-09T05:06:25.6711833+00:00" endTime="2025-06-09T05:06:25.6712791+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fad17c36-0cbc-4d50-b3e1-c03dffe56866" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ForceFail" storage="/tmp/tempfspartition/qnettransformartifacts/midtransformcode/transformedcode/sourcecode/mathutilstestnunit/bin/debug/net8.0/mathutilstestnunit.dll" id="8dadb478-5b16-5691-31e0-925960f723ee">
+      <Execution id="7ae5817c-a18c-4b8f-9057-c8c490bc95eb" />
+      <TestMethod codeBase="/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/MathUtilsTestNUnit/bin/Debug/net8.0/MathUtilsTestNUnit.dll" adapterTypeName="executor://nunit3testexecutor/" className="MathUtilsTestNUnit.Tests" name="ForceFail" />
+    </UnitTest>
+    <UnitTest name="TestMultiply" storage="/tmp/tempfspartition/qnettransformartifacts/midtransformcode/transformedcode/sourcecode/mathutilstestnunit/bin/debug/net8.0/mathutilstestnunit.dll" id="aa5ef510-6f8f-ac67-342a-1924250b2100">
+      <Execution id="a84b7861-207d-4824-92ad-4d84e2a92d05" />
+      <TestMethod codeBase="/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/MathUtilsTestNUnit/bin/Debug/net8.0/MathUtilsTestNUnit.dll" adapterTypeName="executor://nunit3testexecutor/" className="MathUtilsTestNUnit.Tests" name="TestMultiply" />
+    </UnitTest>
+    <UnitTest name="TestSubtract" storage="/tmp/tempfspartition/qnettransformartifacts/midtransformcode/transformedcode/sourcecode/mathutilstestnunit/bin/debug/net8.0/mathutilstestnunit.dll" id="b4cd3eb8-b13a-f364-7b98-fb162936e983">
+      <Execution id="fad17c36-0cbc-4d50-b3e1-c03dffe56866" />
+      <TestMethod codeBase="/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/MathUtilsTestNUnit/bin/Debug/net8.0/MathUtilsTestNUnit.dll" adapterTypeName="executor://nunit3testexecutor/" className="MathUtilsTestNUnit.Tests" name="TestSubtract" />
+    </UnitTest>
+    <UnitTest name="TestAdd" storage="/tmp/tempfspartition/qnettransformartifacts/midtransformcode/transformedcode/sourcecode/mathutilstestnunit/bin/debug/net8.0/mathutilstestnunit.dll" id="d614a262-e5a0-f8ef-fb80-dac001653950">
+      <Execution id="ad01e149-d5fc-4eac-a3ce-f73862e4eb7b" />
+      <TestMethod codeBase="/tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/MathUtilsTestNUnit/bin/Debug/net8.0/MathUtilsTestNUnit.dll" adapterTypeName="executor://nunit3testexecutor/" className="MathUtilsTestNUnit.Tests" name="TestAdd" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="d614a262-e5a0-f8ef-fb80-dac001653950" executionId="ad01e149-d5fc-4eac-a3ce-f73862e4eb7b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa5ef510-6f8f-ac67-342a-1924250b2100" executionId="a84b7861-207d-4824-92ad-4d84e2a92d05" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8dadb478-5b16-5691-31e0-925960f723ee" executionId="7ae5817c-a18c-4b8f-9057-c8c490bc95eb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b4cd3eb8-b13a-f364-7b98-fb162936e983" executionId="fad17c36-0cbc-4d50-b3e1-c03dffe56866" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="3" failed="1" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.6.0.0: Test execution started
+Running all tests in /tmp/tempfspartition/QnetTransformArtifacts/MidTransformCode/transformedCode/sourceCode/MathUtilsTestNUnit/bin/Debug/net8.0/MathUtilsTestNUnit.dll
+   NUnit3TestExecutor discovered 4 of 4 NUnit test cases using Current Discovery mode, Non-Explicit run
+NUnit Adapter 4.6.0.0: Test execution complete
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
