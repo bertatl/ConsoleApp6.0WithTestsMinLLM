@@ -1,5 +1,14 @@
 using NUnit.Framework;
 using MathUtils;
+using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.Http;
+using System.Threading;
+using System.Threading.Tasks;
+
+using NUnit.Framework.Legacy;
 
 namespace MathUtilsTestNUnit
 {
@@ -14,26 +23,28 @@ namespace MathUtilsTestNUnit
         public void TestAdd()
         {
             var mo = new MathOperations();
-            Assert.AreEqual(3, mo.Add(1, 2));
+            ClassicAssert.AreEqual(3, mo.Add(1, 2));
         }
+
         [Test]
         public void TestSubtract()
         {
             var mo = new MathOperations();
-            Assert.AreEqual(2, mo.Subtract(4, 2));
+            ClassicAssert.AreEqual(2, mo.Subtract(4, 2));
         }
 
         [Test]
         public void TestMultiply()
         {
             var mo = new MathOperations();
-            Assert.AreEqual(8, mo.Multiply(4, 2));
+            ClassicAssert.AreEqual(8, mo.Multiply(4, 2));
         }
+
         [Test]
         public void ForceFail()
         {
             var mo = new MathOperations();
-            Assert.AreEqual(2, mo.Subtract(6, 2));
+            ClassicAssert.AreEqual(2, mo.Subtract(6, 2));
         }
     }
 }
